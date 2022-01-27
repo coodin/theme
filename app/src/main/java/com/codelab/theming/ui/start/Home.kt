@@ -16,6 +16,7 @@
 
 package com.codelab.theming.ui.start
 
+import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -199,7 +200,7 @@ fun PostItem(
 ) {
     ListItem(
         modifier = modifier
-            .clickable { /* todo */ }
+            .clickable { Log.i("example","test") }
             .padding(vertical = 8.dp),
         icon = {
             Image(
