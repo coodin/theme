@@ -200,7 +200,7 @@ fun PostItem(
 ) {
     ListItem(
         modifier = modifier
-            .clickable { Log.i("example","test") }
+            .clickable { Log.i("example","test2") }
             .padding(vertical = 8.dp),
         icon = {
             Image(
