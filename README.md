@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Jetpack Compose Theming 
 
 This folder contains the source code for
